@@ -58,6 +58,7 @@ void slot2_Init()
 	extern TISlot2InterfaceConstructor construct_Slot2_EasyPiano;
 	extern TISlot2InterfaceConstructor construct_Slot2_Paddle;
 	extern TISlot2InterfaceConstructor construct_Slot2_PassME;
+	extern TISlot2InterfaceConstructor construct_Slot2_Arduino;
 
 	slot2_List[NDS_SLOT2_NONE]			= construct_Slot2_None();
 	slot2_List[NDS_SLOT2_AUTO]			= construct_Slot2_Auto();
@@ -69,6 +70,7 @@ void slot2_Init()
 	slot2_List[NDS_SLOT2_EASYPIANO]		= construct_Slot2_EasyPiano();
 	slot2_List[NDS_SLOT2_PADDLE]		= construct_Slot2_Paddle();
 	slot2_List[NDS_SLOT2_PASSME]		= construct_Slot2_PassME();
+	slot2_List[NDS_SLOT2_ARDUINO]		= construct_Slot2_Arduino();
 
 }
 

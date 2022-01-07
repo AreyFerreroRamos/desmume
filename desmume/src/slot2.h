@@ -97,6 +97,7 @@ enum NDS_SLOT2_TYPE
 	NDS_SLOT2_EASYPIANO,	// 0x06 - Easy Piano
 	NDS_SLOT2_PADDLE,		// 0x07 - Arkanoids DS paddle
 	NDS_SLOT2_PASSME,		// 0x08 - PassME/Homebrew
+	NDS_SLOT2_ARDUINO,		// 0x09 - Arduino
 	NDS_SLOT2_COUNT			// use for counter addons - MUST TO BE LAST!!!
 };
 

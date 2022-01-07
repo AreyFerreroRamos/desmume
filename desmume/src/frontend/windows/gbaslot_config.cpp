@@ -478,6 +478,7 @@ u32		GBAslot_IDDs[NDS_SLOT2_COUNT] = {
 	IDD_GBASLOT_PIANO,
 	IDD_GBASLOT_PADDLE, //paddle
 	IDD_GBASLOT_NONE, //PassME
+	IDD_GBASLOT_NONE, //Arduino
 };
 
 DLGPROC GBAslot_Procs[NDS_SLOT2_COUNT] = {
@@ -490,7 +491,8 @@ DLGPROC GBAslot_Procs[NDS_SLOT2_COUNT] = {
 	GbaSlotNone,  //expmem
 	GbaSlotPiano,
 	GbaSlotPaddle,
-	GbaSlotNone			// PassME
+	GbaSlotNone,			// PassME
+	GbaSlotNone				// Arduino
 };
 
 
